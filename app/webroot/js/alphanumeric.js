@@ -1,0 +1,1 @@
+$.validator.addMethod("alphanumeric",function(b,a){return this.optional(a)||!/[^a-z_\ñáéíóú\-0-9\ \/\$\.\;\:\,\_\-\@\!\#\%\&\(\)\?\¿\¡\{\}\+\*\<\>\r\n]/i.test(b)});

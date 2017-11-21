@@ -1,0 +1,895 @@
+
+
+
+
+/*
+*
+*	Colores usados en pagina
+*
+*/
+
+.blanco { color: white !important; }
+.azul_1 { color: #DFEEEC !important; }
+.azul_2 { color: #BFDDDA !important; }
+.azul_3 { color: #60ABA3 !important; }
+.azul_4 { color: #409B90 !important; }
+.azul_5 { color: #00796B !important; }
+.complementario { color: #EEB300 !important; }
+.complementario_claro { color: #FFC107 !important; }
+
+
+.bg_blanco{	background-color: white !important; box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);}
+.bg_azul_1 { background-color: #DFEEEC !important; }
+.bg_azul_2 { background-color: #BFDDDA !important; }
+.bg_azul_3 { background-color: #60ABA3 !important; }
+.bg_azul_4 { background-color: #409B90 !important; }
+.bg_azul_5 { background-color: #00796B !important; }
+.bg_complementario { background-color: #EEB300 !important; }
+.bg_complementario_claro { background-color: #FFC107 !important; }
+
+
+/*
+*
+*	Clases y ids usados para todo el sistema en general
+*
+*/
+
+.validation_label{
+	color: red !important;
+	display: none;
+	position: initial !important;
+	font-size: 13px !important;
+}
+
+.validation_image{
+	position: relative !important;
+	top: -50px !important;
+}
+
+.validation_archivo{
+	position: absolute !important;
+	top: 11px !important;
+	left: 120px !important;
+}
+
+.validation_imageney{
+	position: absolute !important;
+	top: 11px !important;
+	left: 150px !important;
+}
+
+.flecha_volteada{
+	-ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.padding_top{
+	padding-top: 10px !important;
+}
+
+.padding_bottom{
+	padding-bottom: 10px !important;
+}
+
+.margin_nada{
+	margin: 0px !important;
+}
+
+.padding_nada{
+	padding: 0px !important;
+}
+
+button .material-icons{
+	color: white;
+}
+
+.contenedor{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.titulo_en_datos{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px){
+	.titulo_en_datos { font-size: 30px; }
+}
+
+img.materialboxed{
+	background-color: white;
+}
+
+.no_aut{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.select-wrapper input.select-dropdown:disabled{
+	color: rgba(0,0,0,0.5);
+}
+
+.collapsible-header {
+    border-bottom: none;
+}
+
+.breadcrumb:last-child{
+	text-decoration: underline;
+}
+
+table.bordered>tbody>tr:last-child {
+    border-bottom: none;
+}
+
+tr td > a {
+	color: #EEB300 !important;
+}
+
+.display_none{
+	display: none !important;
+}
+
+#forma_busqueda .bg_blanco{
+	box-shadow: none;
+}
+
+.tabs{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.material-tooltip{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.con_sombra{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3),0 2px 10px 0 rgba(0,0,0,0.3);
+}
+
+
+/* Azul 1 */
+.collapsible-body {
+    border-top: 1px solid #DFEEEC;
+}
+.divider {
+    background-color: #DFEEEC;
+}
+.divider_grueso {
+    height: 3px;
+    overflow: hidden;
+    background-color: #DFEEEC;
+}
+thead {
+    border-bottom: 1px solid #DFEEEC;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: #DFEEEC;
+}
+
+/* Azul 3 */
+.input-field label{
+	color: #60ABA3;
+}
+.ver_editar_acciones a:hover{
+	color: #60ABA3;
+}
+input[type=text]:focus:not([readonly]){
+	border-bottom: 1px solid #60ABA3;
+    box-shadow: 0 1px 0 0 #60ABA3;
+}
+.input-field .prefix.active{
+	color: #60ABA3;
+}
+.divider_3 {
+    height: 3px;
+    overflow: hidden;
+    background-color: #60ABA3;
+}
+
+/* Azul 4 */
+label{
+	color: #409B90;
+}
+a {
+    color: #409B90;
+}
+
+/* Azul 5 */
+html{
+	color: red;
+}
+.material-icons{
+	color: #00796B;
+}
+.dropdown-content li > a{
+	color: #00796B;
+}
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
+	border-bottom: 1px solid #00796B;
+}
+.backdrop{
+	background-color: #00796B;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.side-nav a {
+    color: #00796B;
+}
+input {
+    color: #00796B;
+}
+
+/* Complementario */
+.btn{
+	background-color: #EEB300;
+}
+.switch label input[type=checkbox]:checked+.lever:after {
+    background-color: #EEB300;
+}
+.ver_editar_acciones .material-icons{
+	color: #EEB300 !important;
+}
+
+/* Complementario claro */
+.btn:hover, .btn:focus {
+	background-color: #FFC107;
+}
+.switch label input[type=checkbox]:checked+.lever {
+    background-color: #FFC107;
+}
+
+
+/*
+*
+*	Clases y ids usados para el menu global (layout default)
+*
+*/
+
+#titulo_global_mh{
+	font-weight: bold;
+}
+
+#menu_global_acciones{
+	margin: 17px 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#menu_todas_acciones .collapsible-header{
+	border-bottom: none;
+}
+
+#menu_todas_acciones .collapsible-header:hover{
+	background-color: #f2f2f2;
+}
+
+#menu_todas_acciones .collapsible-body{
+	border-top: none;
+	border-bottom: none;
+	padding: 0 1rem 0 2.7rem;
+}
+
+#menu_todas_acciones > li >.active{
+	font-weight: bold;
+	background-color: #f2f2f2;
+}
+
+#hamburguesa_menu.side-nav a {
+    line-height: inherit;
+    padding: 0px;
+    display: initial;
+}
+
+#menu_izquierdo_global .collapsible, #hamburguesa_menu .collapsible{
+	border-top: none;
+    border-right: none;
+    border-left: none;
+    box-shadow: none;
+}
+
+#imagen_usuario_global{
+	max-width:100%; 
+	max-height:100%;
+	margin:auto;
+}
+
+#menu_izquierdo_global{
+	background-color: white;
+	padding: 0px;
+	box-shadow: 1px 0px 20px rgba(0, 0, 0, .3);
+	position: relative;
+	z-index: 100;
+	width: 200px;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+#contenido_vistas_padding{
+	padding: 25px;
+}
+
+#contenido_vistas{
+	width: calc(100% - 200px);
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+/* Cuando se hace tableta */
+@media only screen and (max-width: 992px){
+	#contenido_vistas_padding{ padding: 15px 10px; }
+	#contenido_vistas { width: 100%; }
+	.breadcrumb { font-size: 15px; }
+	.breadcrumb:before { margin: 0px; }
+}
+
+#nav_menu_global{
+	height: 68px;
+}
+
+#nav_menu_global #nav-mobile{
+	line-height: 40px;
+	height: 68px;
+}
+
+#menu_hamburguesa_global, #menu_opciones_usuario{
+	height: 68px;
+}
+
+#nav_menu_global .material-icons{
+	line-height: 70px;
+}
+
+#li_para_foto_usuario{
+	width: 60px;
+	height: 60px;
+	margin-top: 4px;
+}
+
+#chip_nombre_usuario{
+	margin-right:30px;
+}
+
+#bread_titulo_vista{
+	background-color: white;
+}
+
+#contenido_vistas .side-nav a:hover {
+    background-color: white;
+}
+
+#menu_hamburguesa_global .material-icons, #menu_opciones_usuario .material-icons{
+	color: white;
+}
+
+#hamburguesa_menu table{menu_opciones_usuario
+	height: 67px;
+}
+
+#hamburguesa_menu > ul > li{
+	line-height: 50px;
+}
+
+#contenido_vistas .side-nav a{
+	height: auto;
+}
+
+#contenido_vistas .side-nav a > li{
+	padding: 18px 5px;
+}
+
+.mta_movil a > li{
+	padding: 12px 35px !important;
+}
+
+#nombre_lateral_movil{
+	line-height: 20px;
+	font-weight: bold;
+}
+
+.padding_left_no_small{
+	padding-left: 40px;
+}
+
+.logo_small_menor{
+	width: 200px;
+}
+
+@media only screen and (max-width: 600px){
+	.padding_left_no_small { padding-left: 10px; }
+	.logo_small_menor { width: 125px; }
+}
+
+
+/* Azul 1 */
+#usuario_opciones .collection{
+	border: none;
+	border-top: 1px solid #DFEEEC;
+}
+
+/* Azul 3 */
+#menu_todas_acciones > li > div ul a:hover{
+	color: #60ABA3;
+}
+#menu_todas_acciones .collapsible-body .active{
+	font-weight: bold;
+	background-color: white;
+    color: #60ABA3;
+}
+
+/* Azul 5 */
+.breadcrumb, .breadcrumb:before{
+	color: #00796B;
+}
+#menu_todas_acciones a{
+	color: #00796B;
+}
+
+/* Complementario */
+.breadcrumb:last-child{
+	color: #EEB300;
+}
+
+
+/*
+*
+*	Clases y ids usados para las barras de busqueda
+*
+*/
+
+#forma_busqueda > li{
+}
+
+#forma_busqueda > #sombra{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+#forma_busqueda .collapsible-header{
+	font-weight: bold;
+}
+
+
+/*
+*
+*	Clases y ids usados para la vista de agregar colegios
+*
+*/
+
+.nivel_existente > .mayor_margin .input-field{
+	margin-top: 2rem;
+}
+
+.nivel_existente{
+	margin-bottom: 30px;
+}
+
+.quitar_nivel .btn-floating{
+	width: 37px !important;
+	height: 37px !important;
+}
+
+.quitar_nivel .btn-floating .material-icons{
+	line-height: 37px !important;
+}
+
+#donde_agregar_niveles .btn-floating{
+	width: 30px;
+	height: 30px;
+}
+
+#donde_agregar_niveles .btn-floating .material-icons{
+	line-height: 30px;
+}
+
+
+/*
+*
+*	Clases y ids usados para la vista de datos en colegios
+*
+*/
+
+#todos_los_datos .collection, #todos_los_datos .collection.with-header .collection-header {
+    border: none;
+}
+
+#todos_los_datos .collapsible{
+	border: none;
+	box-shadow: none;
+}
+
+#datos_niveles .collapsible-body {
+	border-bottom: none;
+}
+
+#datos_niveles .collection .collection-item{
+	border-bottom: none;
+}
+
+
+/* Azul 1 */
+#datos_niveles .collapsible-header {
+	border-top: 1px solid #DFEEEC;
+}
+#datos_niveles .collapsible{
+	border-bottom: 1px solid #DFEEEC;
+}
+
+/* Complementario */
+#datos_niveles .collapsible-header {
+	color: #EEB300;
+	font-weight: bold;
+}
+
+
+/*
+*
+*	Clases y ids usados para la vista de datos familias
+*
+*/
+
+.miembros_nombres{
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+
+/*
+*
+*	Clases y ids usados para modificar el datepicker
+*
+*/
+
+.picker__weekday-display{
+	display: none;
+}
+
+.picker__month-display{
+	padding-top: 15px;
+}
+
+
+/* Blanco */
+.picker__year-display{
+	color: white;
+}
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected{
+	color: white !important;
+}
+
+/* Azul 1 */
+.picker__nav--prev:hover, .picker__nav--next:hover {
+    background: #DFEEEC;
+}
+button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
+    background-color: #DFEEEC;
+}
+
+/* Azul 3 */
+.picker__date-display {
+	background-color: #60ABA3;
+}
+.picker__day.picker__day--today {
+    color: #60ABA3;
+}
+
+/* Azul 4 */
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected {
+    background-color: #409B90;
+}
+.picker__nav--prev:before{
+    border-right: 0.75em solid #409B90;
+}
+.picker__nav--next:before{
+	border-left: 0.75em solid #409B90;
+}
+
+/* Azul 5 */
+.picker{
+	color: #00796B;
+}
+.picker__day--infocus {
+    color: #00796B;
+}
+.picker__day--infocus:hover {
+    color: #00796B;
+}
+
+/* Complementario */
+.picker__today, .picker__close{
+	color: #EEB300;
+}
+
+
+/*
+*
+*	Clases y ids usados para la vista de agregar salones
+*
+*/
+
+#moduloAgregarSalon .collection.with-header .collection-header {
+    border-bottom: none;
+}
+
+#moduloAgregarSalon tr td > a {
+    color: white !important;
+}
+
+#bread_datos_salon .breadcrumb{
+	font-size: 40px;
+}
+
+#bread_datos_salon .breadcrumb:before{
+	vertical-align: initial;
+}
+
+/* Azul 1 */
+#seccionDeAgregado{
+	border-right: 1px solid #DFEEEC;
+}
+#moduloAgregarSalon .collection{
+    border: 1px solid #DFEEEC;
+}
+
+
+/*
+*
+*	Clases y ids usados para la vista de datos familias
+*
+*/
+
+.asunto{
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 0 10px 0;
+}
+
+.mensaje{
+	padding: 10px 0 10px 0;
+}
+
+
+/*
+*
+*	Clases y ids usados para los mensajes
+*
+*/
+
+.imagenes_descargar{
+	padding: 0px !important;
+}
+
+/* Complementario */
+.btn_descarga{
+	color: #EEB300 !important;
+}
+.tabs .tab a{
+	color: #EEB300;
+	font-weight: bold;
+}
+.tabs .indicator {
+    background-color: #EEB300;
+}
+
+/* Complementario claro */
+.tabs .tab a:hover{
+	color: #FFC107;
+	font-weight: bold;
+}
+
+
+/*
+*
+*	Clases y ids creados despues de cambiar los colores originales
+*
+*/
+
+#menu_izquierdo_global {
+    background-color: #00796B;
+}
+
+#menu_todas_acciones .collection .collection-item {
+    background-color: #005349;
+}
+
+#menu_todas_acciones .collapsible-body {
+	background-color: #005349;
+}
+
+#menu_todas_acciones .collection .collection-item:hover {
+    color: #EEB300;
+}
+
+#menu_izquierdo_global .collapsible-header{
+	color: white;
+	background-color: #00796B;
+}
+
+#hamburguesa_menu .collapsible-header{
+	color: white;
+	background-color: #00796B;
+}
+
+#menu_todas_acciones .material-icons {
+	color: white;
+}
+
+#menu_todas_acciones a {
+    color: white;
+}
+
+#menu_todas_acciones .collapsible-header:hover {
+    background-color: #EEB300;
+}
+
+#menu_todas_acciones > li >.active {
+    font-weight: bold;
+    background-color: #EEB300;
+}
+
+#titulo_global_mh {
+	color: white !important;
+}
+
+#menu_global_acciones{
+	color: white !important;
+}
+
+#hamburguesa_menu{
+	background-color: #00796B;
+}
+
+#menu_todas_acciones .collapsible-body .active {
+    color: #EEB300;
+}
+
+.tabs .tab a{
+	color: #898989;
+	background-color: #EDEDED;
+	font-weight: normal;
+}
+
+.tabs .tab a.active, .tabs .tab a.active:hover, .tabs .tab a:hover{
+	color: #EEB300;
+	font-weight: bold;
+}
+
+.tabs .tab a.active {
+	background-color: white;
+}
+
+.tabs .tab a:hover{
+	color: #898989;
+}
+
+table.bordered>thead>tr, table.bordered>tbody>tr {
+    border-bottom: 2px solid #EDEDED;
+}
+
+table.bordered>thead>tr {
+    color: #00796B;
+}
+
+html{
+	color: #898989;
+}
+
+#forma_busqueda span.complementario, #forma_busqueda i.complementario {
+	color: #00796B !important;
+}
+
+table.highlight>tbody>tr:hover {
+    background-color: #EDEDED;
+}
+
+tr td > a {
+    color: #898989 !important;
+}
+
+.no_leido{
+	color: #585858;
+	font-weight: bolder;
+}
+
+div.contenedor > table tbody tr {
+	cursor: pointer;
+}
+
+#filtro_a_cambiar_guardados tr{
+	cursor: auto;
+}
+
+.input-field label, input {
+    color: #898989;
+}
+
+#contenido_vistas, body.bg_azul_3{
+	background-color: #F2F2F2 !important;
+}
+
+body.bg_azul_3 .card-panel{
+	background-color: #00796B;
+}
+
+.card-panel .material-icons, .card-panel a, .card-panel .input-field .prefix.active, .card-panel .input-field label, .card-panel input {
+	color: white;
+}
+
+.card-panel input:not([type]).valid, .card-panel input:not([type]):focus.valid, .card-panel input[type=text].valid, .card-panel input[type=text]:focus.valid, .card-panel input[type=password].valid, .card-panel input[type=password]:focus.valid, .card-panel input[type=email].valid, .card-panel input[type=email]:focus.valid, .card-panel input[type=url].valid, .card-panel input[type=url]:focus.valid, .card-panel input[type=time].valid, .card-panel input[type=time]:focus.valid, .card-panel input[type=date].valid, .card-panel input[type=date]:focus.valid, .card-panel input[type=datetime].valid, .card-panel input[type=datetime]:focus.valid, .card-panel input[type=datetime-local].valid, .card-panel input[type=datetime-local]:focus.valid, .card-panel input[type=tel].valid, .card-panel input[type=tel]:focus.valid, .card-panel input[type=number].valid, .card-panel input[type=number]:focus.valid, .card-panel input[type=search].valid, .card-panel input[type=search]:focus.valid, .card-panel input:not([type]):focus:not([readonly]), .card-panel input[type=text]:focus:not([readonly]), .card-panel input[type=password]:focus:not([readonly]), .card-panel input[type=email]:focus:not([readonly]), .card-panel input[type=url]:focus:not([readonly]), .card-panel input[type=time]:focus:not([readonly]), .card-panel input[type=date]:focus:not([readonly]), .card-panel input[type=datetime]:focus:not([readonly]), .card-panel input[type=datetime-local]:focus:not([readonly]), .card-panel input[type=tel]:focus:not([readonly]), .card-panel input[type=number]:focus:not([readonly]), .card-panel input[type=search]:focus:not([readonly]) {
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 0 white;
+}
+
+.card-panel input:not([type]), .card-panel input[type=text], .card-panel input[type=password], .card-panel input[type=email], .card-panel input[type=url], .card-panel input[type=time], .card-panel input[type=date], .card-panel input[type=datetime], .card-panel input[type=datetime-local], .card-panel input[type=tel], .card-panel input[type=number], .card-panel input[type=search] {
+	border-bottom: 1px solid white;
+}
+
+.card-panel input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 0 white;
+}
+
+.extra_tipo{
+	font-size: 35px;
+	padding: 15px 0 10px 0;
+}
+
+.extra_agregar{
+	padding-top: 20px;
+}
+
+#circular_check label {
+	color: #898989;
+}
+
+#check_absolute{
+	position: absolute;
+}
+
+.img_select_hijo{
+	text-align: center;
+	max-width: 50px;
+	margin: auto;
+}
+
+.nombre_hijo_menu{
+	line-height: 1.5;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+a.hasta_arriba {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: #00796B url("../img/up-arrow.png") no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+#mostrar_todos{
+	font-size: 20px;
+	padding-top: 30px;
+	cursor: pointer;
+}
+
+span.badge{
+	min-width: 0;
+	right: 0px;
+	font-weight: bold;
+}
+
+.cursor_normal{
+	cursor: auto !important;
+}
+
+.enviando{
+	font-size: 20px;
+}
